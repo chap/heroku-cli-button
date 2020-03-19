@@ -2,7 +2,7 @@
 An app that installs the Heroku CLI
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rauchg/slackin/tree/0.5.1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chap/heroku-cli-button)
 
 Visit console:
 https://<your-app-name>.herokuapp.com/
