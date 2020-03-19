@@ -13,7 +13,7 @@
     }
   ],
   "env": {
-    "BUILDPACK_RUN": {
+    "CLI_SETUP": {
       "required": false,
       "value": "heroku plugins:install heroku-kafka"
     }
