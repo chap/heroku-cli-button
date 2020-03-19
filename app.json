@@ -6,7 +6,7 @@
   "keywords": ["heroku", "cli"],
     "buildpacks": [
     {
-      "url": "https://github.com/heroku/cli.git"
+      "url": "https://github.com/heroku/heroku-buildpack-cli"
     },
     {
       "url": "heroku/python"
@@ -16,6 +16,9 @@
     }
   ],
   "env": {
-    "BUILDPACK_RUN": "heroku plugins:install heroku-kafka"
+    "BUILDPACK_RUN": {
+      "required": false,
+      "value": "heroku plugins:install heroku-kafka"
+    }
   }
 }
